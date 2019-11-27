@@ -1,0 +1,28 @@
+.__dd {
+    font-family: 'DIN Pro';
+    *,
+    *::before,
+    *::after {
+        box-sizing: border-box;
+    }
+
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    img,
+    svg {
+        vertical-align: middle;
+    }
+
+    img {
+        max-width: 100%;
+        width: 100%;
+    }
+}
