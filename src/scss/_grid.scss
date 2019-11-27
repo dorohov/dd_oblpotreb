@@ -1,0 +1,43 @@
+.__dd {
+    &__container {
+        max-width: #{1520px + 60px};
+        width: 100%;
+        padding-left: 30px;
+        padding-right: 30px;
+        margin: 0 auto;
+    }
+    &__heading {
+        text-align: center;
+        margin-bottom: 70px;
+        &__text {
+            font-size: 64px;
+            line-height: 77px;
+            font-family: 'Arkhip';
+        }
+        &__sub {
+            padding-top: 40px;
+            font-size: 16px;
+            line-height: 163.3%;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .__dd {
+        &__heading {
+            margin-bottom: 30px;
+            &__text {
+                font-size: 28px;
+                line-height: 30px;
+            }
+            &__sub {
+                padding-top: 10px;
+                font-size: 14px;
+                line-height: 140%;
+                br {
+                    display: none;
+                }
+            }
+        }
+    }
+}
